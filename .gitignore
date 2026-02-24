@@ -1,0 +1,62 @@
+
+# Entornos virtuales
+
+.venv/
+.venv_SVM/
+venv/
+env/
+ENV/
+
+
+# Python cache
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+
+# Instaladores
+build/
+dist/
+*.egg-info/
+
+
+#Jupyter Notebook
+.ipynb_checkpoints
+
+
+#Datos 
+data/**/*.csv
+data
+data/raw/
+data/interim/
+data/processed/
+
+
+
+# Reportes EDA en HMTL
+*.html
+
+
+#Modelos entrenados
+models/
+*.pkl
+*.joblib
+
+#Logs
+*.log
+
+
+# VSCode
+.vscode/
+
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+
+.env
